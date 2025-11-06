@@ -1,60 +1,41 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Ad Soyad: Furkan Durkaç
+ * Ogrenci No: 250541045
+ * Tarih: 06.11.2025
+ * Aciklama: Görev 1 - Öğrenci Bilgi Sistemi
  * 
- * Bu program kullanicidan ogrenci bilgilerini alir ve
- * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
+ * Bu program kullanıcıdan öğrenci bilgilerini alır ve
+ * düzenli bir formatta ekrana yazdırır.
+ * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz.
  */
 
 import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
         
+        // 🔹 Scanner objesi oluşturma (kullanıcıdan veri almak için)
+        Scanner input = new Scanner(System.in);
         
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
+        // 🔹 Değişken tanımlamaları
+        String ad = "Furkan";
+        String soyad = "Durkaç";
+        int ogrenciNo = 250541045;
+        int yas = 20;
+        double gpa = 3.20;
         
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
+        // 🔹 Bilgileri ekrana yazdırma
+        System.out.println("=== ÖĞRENCİ BİLGİ SİSTEMİ ===");
         System.out.println();
+        System.out.println("Ad Soyad: " + ad + " " + soyad);
+        System.out.println("Öğrenci No: " + ogrenciNo);
+        System.out.println("Yaş: " + yas);
+        System.out.println("GPA: " + gpa);
+        System.out.println("==============================");
         
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
-
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+        // 🔹 Scanner'i kapatma
+        input.close();
     }
 }
+
+
